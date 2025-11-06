@@ -1,0 +1,161 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+\documentclass[fontset=mac]{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\usepackage[colorlinks=true,urlcolor=black]{hyperref}
+\usepackage{geometry}
+
+\geometry{
+  top=0.4cm, % 设置上边距为2cm
+  bottom=0.4cm, % 设置下边距为2cm
+  % left=2.5cm, % 设置左边距为2.5cm
+  % right=2.5cm % 设置右边距为2.5cm
+}
+% \usepackage{hyperref}
+% \hypersetup{colorlinks=false,pdfborderstyle={/S/U/W 1},pdfborder={0 0 1}}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Yifan Zhang (Skylar)}
+
+\contactInfo{(217) 390-0877}
+{\underline{\href{mailto:yifanz28@illinois.edu}{yifanz28@illinois.edu}}}
+{\underline{\href{https://www.linkedin.com/in/yifan-zhang-60b18b325/}{\faLinkedin \ yifan-zhang-60b18b325}}}
+{\underline{\href{https://github.com/skylarkie}{\faGithub\ skylarkie}}}
+
+\section{Education}
+\datedsubsection{\textbf{University of Illinois Urbana-Champaign (UIUC)}}{Aug. 2024 - May 2026 (Expected)}
+\datedsubsubsection{Master in Electrical and Computer Engineering}{Champaign, IL, US}
+\datedsubsubsection{Courses: Applied Parallel Programming, Distributed Systems, Database Systems}{}
+
+\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}}{Sep. 2020 - Jun. 2024}
+\datedsubsubsection{B.S. in Computer Science and Artificial Intelligence}{Shanghai, CN}
+\datedsubsubsection{Machine Learning, Data Mining, Computer Vision, Natural Language Processing, Operating System, Data Structure}{}
+
+\section{Skills}
+\begin{itemize}[parsep=0.1ex]
+   \item {\textbf{Languages}: Python, C/C++, Java, SQL, Shell, HTML, Golang}{}
+    % \item {\textbf{Frameworks}: Vue, LLVM, Clang, Django, Flask, gRPC, Hibernate, PyTorch, Cutlass}{}
+    % \item \textbf{Databases}: RocksDB, MySQL, PostgreSQL, MongoDB, Elasticsearch, Redis, HBase, Memcached, Spark
+    \item {\textbf{Tools}: AWS, PyTorch, CUDA, HuggingFace, Git, Docker, Linux, Slurm}{}
+    \item {\textbf{Others}: Chemistry, Photograph, Pr/Ae, Guitar, DAW, Figma}{}
+\end{itemize}
+
+\section{Work}
+
+\datedsubsection{\textbf{AWS, Amazon}}{May 2025 – Aug. 2025}
+\datedsubsubsection{Software Development Engineer Intern - AI}{Pheonix, AZ, US}
+\begin{itemize}[parsep=0.1ex]
+    \item Designed and deployed an LLM-based summarization system for Infrastructure-as-Code (IaC) analysis, generating digestible overviews of large-scale cloud deployments to assist region build.
+    \item Integrated LLMs via AWS Lambda and Bedrock to extract insights from IaC logs and graph-based statistics, supporting both extractive and abstractive generation workflows.
+    \item Developed a DynamoDB-based caching layer and RESTful APIs to enable low-latency, production-ready responses, supporting downstream UI integration. 
+\end{itemize}
+
+\datedsubsection{\textbf{Aviatrix Inc.}}{Feb. 2025 – May 2025}
+\datedsubsubsection{Machine Learning Engineer Intern}{Champaign, IL, US}
+\begin{itemize}[parsep=0.1ex]
+ \item Developed a deep learning-based anomaly detection pipeline for unstructured network logs, leveraging sequence modeling and semantic embedding to capture latent abnormal patterns.
+    \item Evaluated the system on personalized real-world production logs from cloud controllers, demonstrating applicability to low-SNR environments.
+\end{itemize}
+
+% \datedsubsection{\textbf{Shanghai AI Laboratory}}{Oct. 2023 – May 2024}
+% \datedsubsubsection{Large Language Model R\&D Intern - \underline{\href{https://openmmlab.com/}{OpenMMLab Team}}}{Shanghai, CN}
+% \begin{itemize}[parsep=0.1ex]
+%     \item {Contributed to \textbf{\href{https://github.com/open-compass/opencompass}{OpenCompass} (3.7k stars)}, an open-source evaluation suite and platform for foundamental models, and the attached ranking board. Enhanced the precision of evaluation on multiple objective benchmarks. Realized bias-free batch inference and faster inference of open-source models.}{}
+%     \item {Participated in the development of self-developed LLM, \textbf{\href{https://github.com/InternLM/InternLM}{InternLM} (6.2k stars)}, providing evaluation on subjective and objective ability and robustness. And conducted further research on enhancing inference abilities, particularly code ability of LLMs.}{}
+%     \item {Wrote the technical report on \textbf{Circular-Eval}, a self-developed robust evaluation method for multi-choice questions, as the main author.}{}
+% \end{itemize}
+
+\datedsubsection{\textbf{Shanghai AI Laboratory}}{Oct. 2023 – May 2024}
+\datedsubsubsection{LLM R\&D Intern - \underline{\href{https://openmmlab.com/}{OpenMMLab Team}}}{Shanghai, CN}
+\begin{itemize}[parsep=0.1ex]
+    \item {Led multiple evaluation studies in \textbf{\href{https://github.com/open-compass/opencompass}{OpenCompass} (6.1k stars)}, focusing on robustness and alignment of frontier LLMs; improved accuracy on objective tasks and built unbiased batch inference for large-scale model comparison.}
+    \item {Contributed to evaluation protocols for LLMs, assessing subjective robustness and functional capabilities (e.g., code generation) This assist upstream pre-training team with the development of \textbf{\href{https://github.com/InternLM/InternLM}{InternLM} (7.1k stars)}}.
+    \item {Proposed and authored the internal technical report on Circular-Eval, a method for improving multiple-choice robustness, later adopted in evaluation system.}
+\end{itemize}
+
+
+% \datedsubsection{\textbf{\href{https://www.supermap.com/en-us/}{SuperMap Software Co., Ltd.}}}{Jul. 2023 – Sep. 2023}
+% \datedsubsubsection{Backend R\&D Internship}{Chengdu, CN}
+% \begin{itemize}[parsep=0.1ex]
+%       \item {Developed an API of geocode and reverse geocode based on PostgreSQL and PostGIS. Conducted load testing and achieved acceptable performance on condition of less than 300 concurrent.}{}
+% \end{itemize}
+
+
+\section{Research}
+
+\datedsubsection{\textbf{Organic Reaction Mechanism Elucidation with LLMs}}{Apr. 2025 - Sep. 2025}
+\datedsubsubsection{Research Intern: \underline{\href{https://blender.cs.illinois.edu}{Blender Lab @ UIUC}} | Supervisor: Heng Ji}{Champaign, IL, US}
+\begin{itemize}[parsep=0.1ex]
+    \item Built the first large-scale, expert-curated dataset of organic reaction mechanisms (\textbf{oMe-Silver/Gold}), comprising 10k+ mechanistic steps with rich annotations.
+    \item Proposed oMeS, a dynamic evaluation framework combining weighted Needleman–Wunsch alignment and Tanimoto similarity for partial credit, enabling fine-grained analysis of LLMs’ mechanistic reasoning across 4 metrics.
+    \item Analyzed performance of 10+ LLMs, revealing systematic failure patterns on domain-specific reaction reasoning. Conducted standard and COT fine-tuning on compact models, achieving consistent gains and outperforming some SOTA models under various conditions.
+    \item Work submitted to \textbf{ICLR 2026} (under review). Contribute as the \textbf{1st author}.
+\end{itemize}
+
+\datedsubsection{\textbf{Reaction-based Enzyme Sequence Generation and EC Prediction}}{Ongoing}
+\datedsubsubsection{Research Intern: \underline{\href{https://blender.cs.illinois.edu}{Blender Lab @ UIUC}} | Supervisor: Heng Ji}{Champaign, IL, US}
+\begin{itemize}[parsep=0.1ex]
+    \item Proposed a novel \textbf{reaction-conditioned enzyme generation task}, enabling AI systems to generate enzyme sequences and corresponding EC numbers directly from chemical reactions.
+    \item Constructed the first large-scale benchmark linking \textbf{chemical reactions, enzyme sequences, and EC numbers}, comprising 219k enzymes and 34k reactions curated from UniProt and Rhea.
+    \item Benchmarked scientific LLMs (Text+Chem T5, Meditron-7B), revealing that domain-specific pretraining improves enzymatic reasoning but current models struggle on unseen reactions.
+\end{itemize}
+
+
+\datedsubsection{\textbf{\href{https://www.isca-archive.org/interspeech_2023/jiang23b_interspeech.pdf}{UnSE: Unsupervised Speech Enhancement Using Optimal Transport}}}{May 2022 – Oct. 2022}
+\datedsubsubsection{Research Assistance: \underline{\href{https://x-lance.github.io}{X-LANCE Lab @ SJTU}} | Supervisor: Kai Yu \& Wenbin Jiang}{Shanghai, CN}
+\begin{itemize}[parsep=0.1ex]
+    \item {Co-developed a \textbf{GAN-based} training method without paired training data according to optimal transport principle.}{}
+    \item {Implemented this idea and conducted experiments on VoiceBank+DEMAND and prominent ASR benchmark.}{} \
+    \item {Conducted experiments that compared our proposed method with other GAN-based speech enhancement methods on the same benchmark.}{}
+    \item {\textbf{Paper accepted by INTERSPEECH 2023}. Contributed as a 3rd author.}{}
+\end{itemize}
+
+\datedsubsection{\textbf{\href{https://doi.org/10.1007/978-981-97-0601-3_22}{Iterative self-supervised learning for speech
+enhancement without clean speech}}}{Oct. 2022 – Jun. 2023}
+\datedsubsubsection{Research Assistance: \underline{\href{https://x-lance.github.io}{X-LANCE Lab @ SJTU}} | Supervisor: Kai Yu \& Wenbin Jiang}{Shanghai, CN}
+\begin{itemize}
+    \item Developed a self-supervised speech enhancement method that eliminates the need for clean targets, leveraging iterative refinement and uncorrelated noise mixing.
+    \item Designed the complete training pipeline. Conducted experiments on real-world noise and a standard ASR benchmark. And achieved competitive scores against supervised baselines.
+    \item \textbf{Contributed as 1st author} of the paper. 
+
+\end{itemize}
+
+% \datedsubsection{\textbf{Multi-Channel Neural Speech Extraction with with Low SNR}}{Jun. 2023 – Apr. 2024}
+% \datedsubsubsection{Research Assistance: \underline{\href{https://x-lance.github.io}{X-LANCE Lab @ SJTU}}}{Shanghai, CN}
+% \datedsubsubsection{Supervisor: Kai Yu | In collaboration with \underline{\href{https://meeting.aispeech.com}{AISpeech Co., Ltd.}}}{}
+% \begin{itemize}[parsep=0.1ex]
+%     \item {Developed an efficient end-to-end speech extraction system with \textbf{microphone array} for low SNR environments.}{}
+%     \item {Designed a novel UNet architecture utilizing CBAM (Convolutional Block Attention Module) and self-attention. Developed a novel pre-processing pipeline, incorporating additional \textbf{DOA} information beyond spectrograms.}{}
+%     \item{Implemented PHM (Parameterization of Hypercomplex Multiplications), resulting in a model with lower than 300k total parameters, close FLOPS, and 75\% improvement compared with baseline method.}{}
+% \end{itemize}
+
+\section{Projects}
+
+\datedsubsection{\textbf{\href{https://github.com/shaox192/opro-T2I}{Optimizing Prompts with LLM for Text-to-Image Generation}}}{}
+\begin{itemize}[parsep=0.1ex]
+    \item Developed framework leveraging Multimodal Large Language Models (MLLMs) to optimize user prompts for text-to-image generation without additional training.
+    \item Designed and implemented a pipeline for iterative prompt refinement, improving image aesthetics and alignment through scoring mechanisms such as CLIP and LAION Aesthetics models
+    \item Conducted experiments on widely-used T2I models, analyzing the trade-offs between aesthetic quality and relevance across optimization steps. Presented findings to enhance usability of prompt engineering techniques in T2I models.
+\end{itemize}
+
+\datedsubsection{\textbf{\href{https://github.com/cs411-alawini/sp25-cs411-team081-Sora01}{Exhibitopia: Exhibition Booth Management Platform}}}{}
+\begin{itemize}[parsep=0.1ex]
+    \item Built a \textbf{full-stack} web application for managing anime exhibition reservations, supporting role-based permissions and real-world exhibition data integration. Developed exhibitor- and admin-facing interfaces for real-time inventory management, reservation control, and queue calling; implemented frontend in and backend in Typescripts.
+    \item Designed and implemented complex database features: multi-condition triggers, stored procedures (e.g., atomic reservation handling), transactional integrity, and role-aware queue logic using MySQL.
+    \item Deployed GCP with Docker and VPC, solving database access attacks through internal IP routing; implemented auto-translation.
+\end{itemize}
+
+
+\datedsubsection{\textbf{\href{https://github.com/skylarkie/P2PMusicPlayer}{WTP Protocol and P2P Music Player}}}{}
+\begin{itemize}[parsep=0.1ex]
+      \item {Implemented WTP, a reliable protocol with sliding window mechanism based on C++ UDP socket.}{}
+      \item {Designed a P2P music player application based on WTP protocol, including UI design using Qt for Python and a distributed file system containing all music files on launched clients. Finally, all music in the database can be played synchronously on distributed clients.}{}
+\end{itemize}
+
+\end{document}
