@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Yifan Zhang (Skylar)"
 title_separator          : "-"
 name                     : &name "Yifan Zhang (Skylar)"
 description              : &description "Yifan Zhang (Skylar)"   # Update this with a general description of your site, this is the default if not overridden by a page
