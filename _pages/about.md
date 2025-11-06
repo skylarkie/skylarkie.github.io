@@ -18,8 +18,8 @@ My research interests lie in **Large Language Models (LLMs)** and **AI4Science**
 
 <style>
 .work-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin: 8px auto 0; max-width: 860px; }
-.work-card { display: flex; gap: 12px; border: 1px solid #eaeaea; border-radius: 12px; padding: 16px; background: #fff; align-items: center; }
-.work-logo { width: 44px; height: 44px; aspect-ratio: 1 / 1; object-fit: contain; border-radius: 10px; padding: 6px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
+.work-card { display: flex; gap: 12px; border: 1px solid #eaeaea; border-radius: 12px; padding: 16px; align-items: center; }
+.work-logo { width: 44px; height: 44px; aspect-ratio: 1 / 1; object-fit: contain; border-radius: 10px; padding: 6px; border: 1px solid #eaeaea; box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
 .work-body { flex: 1; }
 .work-title { margin: 0; font-weight: 600; }
 .work-meta { margin: 2px 0 0 0; color: #666; font-size: 0.9em; }
